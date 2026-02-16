@@ -1,0 +1,79 @@
+:root {
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+  color: #101a2b;
+  background: #f2f5fb;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 6px;
+}
+
+.muted {
+  margin-top: 0;
+  color: #536176;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 130px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  margin-top: 18px;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #cfd8ea;
+  border-radius: 8px;
+  padding: 9px 11px;
+  background: #fff;
+}
+
+button {
+  border: 1px solid #2f57cc;
+  border-radius: 8px;
+  background: #3564e8;
+  color: #fff;
+  padding: 9px 13px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.actions {
+  margin: 18px 0 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.status {
+  color: #284aaf;
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
